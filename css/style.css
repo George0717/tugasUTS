@@ -1,0 +1,56 @@
+.formulir {
+  display: flex;
+  align-items: center;
+}
+
+#submit {
+  transition: all 1s;
+}
+
+#submit:hover {
+  transition: all 1s;
+}
+.pop-green {
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 0rem;
+  width: 30%;
+  height: 50px;
+  font-size: 20px;
+  background-color: #7fb77e;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 4px 5px 0 rgb(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.hidden {
+  transform: translate(-50%, -200px);
+  transition-duration: 200ms;
+}
+.visible {
+  transform: translate(-50%, 50%);
+  transition-duration: 200ms;
+}
+
+@media screen and (max-width: 600px) {
+  .formulir {
+    display: block;
+  }
+}
+@media screen and (max-width: 450px) {
+  .formulir {
+    display: block;
+  }
+}
+@media screen and (max-width: 800px) {
+  .formulir {
+    display: block;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .formulir {
+    display: block;
+  }
+}
