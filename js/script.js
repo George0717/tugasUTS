@@ -21,7 +21,7 @@ Sbutton.addEventListener("click", function () {
   //   Jika data penduduk ada
   else {
     // Mengambil data tblPenduduk dengan id tblP
-    let dataLs = JSON.parse(localStorage.getItem("tblP"));
+    const dataLs = JSON.parse(localStorage.getItem("tblP"));
     dataLs.push({ nik: txtNik.value, nama: txtNama.value, alamat: txtAlamat.value });
     localStorage.setItem("tblP", JSON.stringify(dataLs));
   }
